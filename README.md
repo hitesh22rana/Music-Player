@@ -1,4 +1,4 @@
-<h1> Music-Player </h1>
+<h1> Music-Player 🎶</h1>
 
 <p>Music-player app that runs on your browser and with great UI/UX and animations of every song along with there pictures that you add </p>
 
