@@ -4,7 +4,7 @@
 
 <ul>
 
-<li>You can add anysong , but try to add royalty free music like i have did and feel free to change UI/UX or improve it. i am open for pull requests</li>
+<li>You can add any song , but try to add royalty free music like i have did and feel free to change UI/UX or improve it. i am open for pull requests</li>
 
 <li>If someone could help to add more dynamic functionality to the Music-Player or can help in fixing some bugs feel free to contribute.</li>
 
