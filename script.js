@@ -29,7 +29,7 @@ function playSong() {
     musicContainer.classList.add('play')
     playBtn.querySelector('i.fas').classList.remove('fa-play');
     playBtn.querySelector('i.fas').classList.add('fa-pause');
-    faviconTag.href = "/favicons/musicon.jpg";
+    faviconTag.href = "./favicons/musicon.png";
     audio.play();
 }
 
@@ -37,7 +37,7 @@ function pauseSong() {
     musicContainer.classList.remove('play')
     playBtn.querySelector('i.fas').classList.add('fa-play');
     playBtn.querySelector('i.fas').classList.remove('fa-pause');
-    faviconTag.href = "/favicons/musicpause.jpg";
+    faviconTag.href = "./favicons/musicpause.png";
     audio.pause();
 }
 
@@ -52,6 +52,7 @@ function prevsong() {
 }
 
 function nextsong() {
+    faviconTag.href = "./favicons/nextarrow.png";
     songIndex++;
     if(songIndex > songs.length-1) {
         songIndex = 0;
