@@ -2,6 +2,7 @@ const musicContainer = document.getElementById('music-container');
 const playBtn = document.getElementById('play');
 const prevBtn = document.getElementById('prev');
 const nextBtn = document.getElementById('next');
+const faviconTag = document.getElementById('faviconTag');
 
 const audio = document.getElementById('audio');
 const progress = document.getElementById('progress');
@@ -22,13 +23,13 @@ function loadSong(song) {
     title.innerText = song;
     audio.src = `audio/${song}.mp3`;
     cover.src = `images/${song}.jpg`;
-}
+} 
 
 function playSong() {
     musicContainer.classList.add('play')
     playBtn.querySelector('i.fas').classList.remove('fa-play');
     playBtn.querySelector('i.fas').classList.add('fa-pause');
-
+    faviconTag.href = "/favicons/musicon.png";
     audio.play();
 }
 
@@ -36,7 +37,7 @@ function pauseSong() {
     musicContainer.classList.remove('play')
     playBtn.querySelector('i.fas').classList.add('fa-play');
     playBtn.querySelector('i.fas').classList.remove('fa-pause');
-
+    faviconTag.href = "/favicons/musicpause.png";
     audio.pause();
 }
 
