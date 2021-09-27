@@ -29,7 +29,7 @@ function playSong() {
     musicContainer.classList.add('play')
     playBtn.querySelector('i.fas').classList.remove('fa-play');
     playBtn.querySelector('i.fas').classList.add('fa-pause');
-    faviconTag.href = "/favicons/musicon.png";
+    faviconTag.href = "/favicons/musicon.jpg";
     audio.play();
 }
 
@@ -37,7 +37,7 @@ function pauseSong() {
     musicContainer.classList.remove('play')
     playBtn.querySelector('i.fas').classList.add('fa-play');
     playBtn.querySelector('i.fas').classList.remove('fa-pause');
-    faviconTag.href = "/favicons/musicpause.png";
+    faviconTag.href = "/favicons/musicpause.jpg";
     audio.pause();
 }
 
